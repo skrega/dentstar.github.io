@@ -444,14 +444,21 @@
     .order {
         padding: 147px 0 64px;
     }
+}
 
+@media(max-width: 950px) {
+    .teeth-21 {
+        padding: 1vw 1.7vw;
+    }
 
+    .teeth-17 {
+        padding: 1vw 2.5vw;
+    }
 }
 
 @media(max-width: 768px) {
     .main {
         background-position: 230px 70px;
-
     }
 
     .main__inner {
@@ -555,6 +562,34 @@
     .center {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .teeth__box-checkbox+label::before {
+        height: 85px;
+    }
+
+    .teeth__box-label {
+        margin-right: -0.2px;
+    }
+
+    .teeth-17 {
+        padding: 1vw 2.4vw;
+    }
+
+    .teeth-22 {
+        padding: 1vw 1.1vw;
+    }
+
+    .teeth-23 {
+        padding: 1vw 1.5vw;
+    }
+
+    .teeth-26 {
+        padding: 1vw 2.4vw;
+    }
+
+    .teeth-27 {
+        padding: 1vw 2.3vw;
     }
 }
 
@@ -771,20 +806,131 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .teeth-21 {
+        padding: 1vw 1.5vw;
+    }
+
+    .teeth-14 {
+        padding: 1vw 1.8vw;
+    }
+
+    .teeth-13 {
+        padding: 1vw 1.4vw;
+    }
+
+    .teeth__box-checkbox+label::before {
+        height: 60px;
+    }
 }
 
-@media(max-width: 425px) {}
+@media(max-width: 550px) {
+    .teeth__box-checkbox+label {
+        font-size: 1.5vw;
+        line-height: 1.9vw;
+    }
+
+    .teeth-16 {
+        padding: 1vw 2.3vw;
+    }
+
+    .teeth-15 {
+        padding: 1vw 1.8vw;
+    }
+
+    .teeth-21 {
+        padding: 1vw 1.7vw;
+    }
+
+    .teeth-23 {
+        padding: 1vw 1.2vw;
+    }
+
+    .teeth-26 {
+        padding: 1vw 2.2vw;
+    }
+
+    .teeth-13 {
+        padding: 1vw 1.8vw;
+    }
+
+    .teeth-12 {
+        padding: 1vw 1.2vw;
+    }
+}
+
+@media(max-width: 425px) {
+    .teeth-18 {
+        padding: 1vw 2.2vw;
+    }
+
+    .teeth-15 {
+        padding: 1vw 1.7vw;
+    }
+
+    .teeth-17 {
+        padding: 1vw 2.3vw;
+    }
+
+    .teeth-12 {
+        padding: 1vw 1vw;
+    }
+
+    .teeth-21 {
+        padding: 1vw 1.6vw;
+    }
+
+    .teeth-22 {
+        padding: 1vw 0.9vw;
+    }
+}
 
 @media(max-width: 375px) {
     .main__img {
         max-width: 269px;
         height: 240px;
     }
+
+    .teeth-13 {
+        padding: 1vw 1.4vw;
+    }
+
+    .teeth-28 {
+        padding: 1vw 1.9vw;
+    }
 }
 
 @media(max-width: 340px) {
     .order__form-privecy {
         width: 248px;
+    }
+
+    .teeth-18 {
+        padding: 1vw 2vw;
+    }
+
+    .teeth-17 {
+        padding: 1vw 2.4vw;
+    }
+
+    .teeth-16 {
+        padding: 1vw 2.2vw;
+    }
+
+    .teeth-15 {
+        padding: 1vw 1.5vw;
+    }
+
+    .teeth-13 {
+        padding: 1vw 1.3vw;
+    }
+
+    .teeth-24 {
+        padding: 1vw 1.6vw;
+    }
+
+    .teeth-26 {
+        padding: 1vw 2.1vw;
     }
 }
 
