@@ -18,35 +18,46 @@
         <div class="container">
             <div class="header__inner">
                 <a href="#" class="header__logo logo">
-                    <img src="images/logo.svg" alt="">
+                    <picture>
+                        <source srcset="images/logo_mobile.svg" media="(max-width: 786px">
+                        <img src="images/logo.svg" alt="">
+                    </picture>
+
                 </a>
                 <div class="header__content">
                     <ul class="header__menu">
                         <li>
-                            <a class="header__menu-link active" href="#main">Главная</a>
+                            <a class="header__menu-link active" href="index.html#main">Главная</a>
                         </li>
                         <li>
-                            <a class="header__menu-link" href="#services">Услуги</a>
+                            <a class="header__menu-link" href="index.html#services">Услуги</a>
                         </li>
                         <li>
-                            <a class="header__menu-link" href="#about">О компании</a>
+                            <a class="header__menu-link" href="index.html#about">О компании</a>
                         </li>
                         <li>
-                            <a class="header__menu-link" href="#location">География работы</a>
+                            <a class="header__menu-link" href="index.html#location">География работы</a>
                         </li>
                         <li>
-                            <a class="header__menu-link" href="#contacts">Контакты</a>
+                            <a class="header__menu-link" href="index.html#contacts">Контакты</a>
                         </li>
                     </ul>
-                    <a href="#" class="header__link">
+                    <a href="order-naryad.html" class="header__link">
                         ЗАКАЗ-НАРЯД
                     </a>
+
+                </div>
+                <div class="header__menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
         </div>
     </header>
     <section class="order">
-        <div class="container">
+        <div class="order__container">
             <h1 class="order__title">
                 Заказ-наряд
             </h1>
@@ -60,6 +71,104 @@
                 <input type="text" class="order__form-input" name="implants" placeholder="Система и размер имплантов">
                 <textarea name="descripion" class="order__form-input order__form-textarea" id="descripion"
                     placeholder="Описание работ"></textarea>
+
+                <div class="teeth__inner top">
+                    <div class="teeth__box">
+                        <input id="18" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-18" for="18">18</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="17" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-17" for="17">17</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="16" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-16" for="16">16</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="15" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-15" for="15">15</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="14" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-14" for="14">14</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="13" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-13" for="13">13</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="12" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-12" for="12">12</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="11" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-11" for="11">11</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="21" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-21" for="21">21</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="22" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-22" for="22">22</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="23" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-23" for="23">23</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="24" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-24" for="24">24</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="25" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-25" for="25">25</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="26" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-26" for="26">26</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="27" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-27" for="27">27</label>
+                    </div>
+                    <div class="teeth__box">
+                        <input id="28" type="checkbox" class="teeth__box-checkbox">
+                        <label class="teeth__box-label teeth-28" for="28">28</label>
+                    </div>
+
+
+
+                </div>
+                <img class="teeth-img" src="images/teeth.png" alt="teeth">
+
+
+                <input type="text" class="order__form-input" name="stainlessCoCr"
+                    placeholder="Литьё каркасов из CoCr сплавов">
+                <input type="text" class="order__form-input" name="stainlessSteelSasting"
+                    placeholder="Литье каркасов из нержавеющей стали">
+                <input type="text" class="order__form-input" name="refractoryModel"
+                    placeholder="Изготовление огнеупорной модели">
+                <input type="text" class="order__form-input" name="titaniumNitride"
+                    placeholder="Напыление нитрид титана">
+                <input type="text" class="order__form-input" name="zirconiumNitride"
+                    placeholder="Напыление нитрид циркония">
+                <div class="order__form-bottom">
+                    <button class="order__form-btn btn" type="submit">
+                        ОТПРАВИТЬ
+                        <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.725 5.7579C23.7247 5.75758 23.7245 5.75722 23.7242 5.7569L18.8256 0.305287C18.4586 -0.103112 17.865 -0.101593 17.4997 0.308851C17.1344 0.719243 17.1359 1.38303 17.5028 1.79148L20.7918 5.45161H0.9375C0.419719 5.45161 0 5.92098 0 6.5C0 7.07902 0.419719 7.54839 0.9375 7.54839H20.7917L17.5029 11.2085C17.1359 11.617 17.1345 12.2808 17.4997 12.6911C17.865 13.1016 18.4587 13.1031 18.8256 12.6947L23.7242 7.2431C23.7245 7.24278 23.7247 7.24242 23.7251 7.2421C24.0922 6.83229 24.0911 6.16635 23.725 5.7579Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                    <div class="order__form-privecy">
+                        Нажимая на кнопку, Вы соглашаетесь
+                        с политикой конфиденциальности
+                    </div>
+                </div>
+
             </form>
         </div>
     </section>
@@ -85,7 +194,10 @@
                         Политика конфиденциальности
                     </a>
                 </div>
-                <a href="#" class="footer__lava-label">
+                <a href="https://lavaagency.ru/" class="footer__lava">
+                    <div class="footer__lava-label">
+                        Разработано в
+                    </div>
                     <span>
                         <img src="images/lava-logo.svg" alt="">
                     </span>
