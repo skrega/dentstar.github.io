@@ -6,21 +6,16 @@
     padding: 0;
 }
 
-// html,
-// body {
-//     overflow-x: hidden;
-// }
-
-html {
-    scroll-behavior: smooth;
-    overflow-x: scroll;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     overflow-x: hidden;
     position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: scroll;
 }
 
 a {
@@ -229,71 +224,3 @@ li {
     height: 1080px;
     width: 100%;
 }
-
-
-
-// .teeth-18 {
-//     padding: 1vw 1.5vw;
-//     margin-left: 1.4em;
-// }
-
-// .teeth-17 {
-//     padding: 1vw 1.5vw;
-// }
-
-// .teeth-16 {
-//     padding: 1vw 1.6vw;
-// }
-
-// .teeth-15 {
-//     padding: 1vw 1.1vw;
-// }
-
-// .teeth-14 {
-//     padding: 1vw 1.2vw;
-// }
-
-// .teeth-13 {
-//     padding: 1vw 0.9vw;
-// }
-
-// .teeth-12 {
-//     padding: 1vw 0.8vw;
-// }
-
-// .teeth-11 {
-//     padding: 1vw 1.1vw;
-
-// }
-
-// .teeth-21 {
-//     padding: 1vw 1.2vw;
-// }
-
-// .teeth-22 {
-//     padding: 1vw 0.6vw;
-// }
-
-// .teeth-23 {
-//     padding: 1vw 1vw;
-// }
-
-// .teeth-24 {
-//     padding: 1vw 1vw;
-// }
-
-// .teeth-25 {
-//     padding: 1vw 1vw;
-// }
-
-// .teeth-26 {
-//     padding: 1vw 1.7vw;
-// }
-
-// .teeth-27 {
-//     padding: 1vw 1.4vw;
-// }
-
-// .teeth-28 {
-//     padding: 1vw 1.4vw;
-// }

@@ -51,16 +51,6 @@ $(function (){
     ]
   });
 
-
-    // let map;
-
-    // function initMap() {
-    //   map = new google.maps.Map(document.getElementById("map"), {
-    //     center: { lat: -34.397, lng: 150.644 },
-    //     zoom: 8,
-    //   });
-    // }
-
     $(window).scroll(function(){
       var $sections = $('section');
       $sections.each(function(i,el){
@@ -85,3 +75,84 @@ $(function (){
      
     })
 })
+
+function initMap() {
+  // The location of Uluru
+  const uluru = {
+    lat: 43.802842232927226,
+    lng: 131.94303209620634
+  };
+ 
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 16,
+      center: uluru,
+      disableDefaultUI: false,
+      //scaleControl: false,
+      zoomControl: false,
+      fullscreenControl: false,
+      mapTypeControl: false,
+      streetViewControl: false,
+      styles: [{
+              "featureType": "all",
+              "elementType": "all",
+              "stylers": [{
+                  "hue": "#008eff"
+              }]
+          },
+          {
+              "featureType": "poi",
+              "elementType": "all",
+              "stylers": [{
+                  "visibility": "off"
+              }]
+          },
+          {
+              "featureType": "road",
+              "elementType": "all",
+              "stylers": [{
+                      "saturation": "0"
+                  },
+                  {
+                      "lightness": "0"
+                  }
+              ]
+          },
+          {
+              "featureType": "transit",
+              "elementType": "all",
+              "stylers": [{
+                  "visibility": "off"
+              }]
+          },
+          {
+              "featureType": "water",
+              "elementType": "all",
+              "stylers": [{
+                      "visibility": "simplified"
+                  },
+                  {
+                      "saturation": "-60"
+                  },
+                  {
+                      "lightness": "-20"
+                  }
+              ]
+          }
+      ]
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: {
+      lat: 43.802842232927226,
+      lng: 131.94303209620634
+    },
+      map: map,
+      icon: 'images/map-mapmarker.svg',
+  });
+
+  google.maps.event.addDomListener(window, 'resize', function() {
+    map.panTo(myLatlng);
+  }); 
+
+}  

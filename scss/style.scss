@@ -76,18 +76,6 @@
     background-position: 850px 70px;
     position: relative;
 
-    // &::before {
-    //     content: "";
-    //     position: absolute;
-    //     bottom: -230px;
-    //     left: 0;
-    //     background-image: url(../images/main__bg-left.svg);
-    //     background-size: cover;
-    //     width: 610px;
-    //     height: 1080px;
-    //     z-index: -1;
-    // }
-
     &__inner {
         display: flex;
         align-items: flex-start;
@@ -116,12 +104,11 @@
         width: 100%;
         background-size: cover;
         height: 798px;
-
-
     }
 
     &__img {
         width: 100%;
+        height: auto;
     }
 }
 
@@ -235,8 +222,20 @@
 //about start
 .about {
     padding: 165px 0 10px;
-    background-repeat: no-repeat;
-    background-position: left 510px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        max-width: 1652px;
+        height: 1652px;
+        bottom: -540px;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-image: url(../images/wave-elements.svg);
+    }
 
     &__inner {
         display: flex;
@@ -371,38 +370,38 @@
     }
 
     &__dots-1 {
-        bottom: 200px;
+        bottom: 140px;
         left: 413px;
     }
 
     &__dots-2 {
-        bottom: 250px;
-        left: 30px;
+        bottom: 205px;
+        left: 40px;
     }
 
     &__dots-3 {
-        bottom: 314px;
-        left: 296px;
+        bottom: 259px;
+        left: 281px;
     }
 
     &__dots-4 {
-        bottom: 410px;
-        left: 270px;
+        bottom: 360px;
+        left: 250px;
     }
 
     &__dots-5 {
-        bottom: 552px;
+        bottom: 502px;
         left: 400px;
     }
 
     &__dots-6 {
-        right: 80px;
-        bottom: 654px;
+        right: 70px;
+        bottom: 604px;
     }
 
     &__dots-7 {
-        bottom: 775px;
-        right: 239px;
+        bottom: 721px;
+        right: 247px;
     }
 }
 
@@ -1002,6 +1001,89 @@
 .teeth-28 {
     padding: 1em 1.5em;
 }
+
+.teeth__inner.bottom {
+    margin-bottom: 91px;
+
+    .teeth__box-label {
+        padding: 0 16px 29px;
+        text-align: center;
+        margin-left: 4px;
+
+        &::after {
+            bottom: 30px;
+            height: 190%;
+        }
+
+        &::before {
+            bottom: 35px;
+            height: 153%;
+        }
+    }
+
+    .teeth-48 {
+        margin-left: 2.5rem;
+        width: 71px;
+    }
+
+    .teeth-47 {
+        width: 86px;
+    }
+
+    .teeth-46 {
+        width: 86px;
+    }
+
+    .teeth-45 {
+        width: 60px;
+    }
+
+    .teeth-44 {
+        width: 53px;
+    }
+
+    .teeth-43 {
+        width: 53px;
+    }
+
+    .teeth-42 {
+        width: 44px;
+    }
+
+    .teeth-41 {
+        width: 40px;
+    }
+
+    .teeth-31 {
+        width: 40px;
+    }
+
+    .teeth-32 {
+        width: 46px;
+    }
+
+
+    .teeth-33 {
+        width: 53px;
+    }
+
+    .teeth-34 {
+        width: 55px;
+    }
+
+    .teeth-36 {
+        width: 89px;
+    }
+
+    .teeth-37 {
+        width: 82px;
+    }
+
+    .teeth-38 {
+        width: 75px;
+    }
+}
+
 
 
 
