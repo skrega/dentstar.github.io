@@ -1,4 +1,7 @@
 $(function (){
+  $(window).scroll(function(){
+    $('.header').toggleClass('active', $(this).scrollTop() > 0);
+  });
 
   $('.header__menu-btn').on('click', function(){
     $(this).toggleClass('open');
@@ -91,6 +94,10 @@ $(function (){
      
     })
     new WOW().init();
+
+    $('.privice__inner').scroll(function(){
+      $('.privice__inner').toggleClass('active', $(this).scrollTop() > 0);
+    });
 })
 
 function initMap() {

@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="libs/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -26,7 +28,7 @@
                 <div class="header__content">
                     <ul class="header__menu">
                         <li>
-                            <a class="header__menu-link active" href="index.html#main">Главная</a>
+                            <a class="header__menu-link" href="index.html#main">Главная</a>
                         </li>
                         <li>
                             <a class="header__menu-link" href="index.html#services">Услуги</a>
@@ -41,6 +43,10 @@
                             <a class="header__menu-link" href="index.html#contacts">Контакты</a>
                         </li>
                     </ul>
+                    <a href="#" class="header__link active wow animate__animated animate__fadeInDown"
+                        data-wow-delay="2s" data-wow-duration="2s">
+                        ЗАКАЗ-НАРЯД
+                    </a>
                 </div>
                 <div class="header__menu-btn">
                     <span></span>
@@ -221,10 +227,10 @@
                                 fill="white" />
                         </svg>
                     </button>
-                    <div class="order__form-privecy">
+                    <a data-fancybox data-src="#privice" href="javascript:;" class="order__form-privecy">
                         Нажимая на кнопку, Вы соглашаетесь
                         с политикой конфиденциальности
-                    </div>
+                    </a>
                 </div>
             </form>
         </div>
@@ -316,11 +322,13 @@
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- <script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAojGldvDEouGkCMX35PXbDpNB39G9yrSs&callback=initMap">
+    <!-- <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUIt102N6Xc27-2w2ZoaR9uVtAB0nH69Y&callback=initMap&libraries=&v=weekly"
+        defer>
     </script> -->
-    <!-- <script src="js/libs.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="libs/wow.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

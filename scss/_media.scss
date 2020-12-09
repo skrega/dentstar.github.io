@@ -86,6 +86,18 @@
 }
 
 @media(max-width: 1440px) {
+    .header__inner {
+        padding: 22px 18px;
+    }
+
+    .partners__text {
+        margin-bottom: 30px;
+    }
+
+    .partners {
+        padding-bottom: 20px;
+    }
+
     .communication__btn-inner {
         top: 600px;
         width: 74px;
@@ -175,6 +187,11 @@
 
     .services__items {
         margin-bottom: 15px;
+        margin-top: 45px;
+    }
+
+    .about__title {
+        margin-bottom: 33px;
     }
 }
 
@@ -191,6 +208,10 @@
         background-position: right -80px;
         padding-bottom: 700px;
         padding-top: 0;
+    }
+
+    .privice {
+        max-width: 772px;
     }
 }
 
@@ -658,24 +679,19 @@
         padding: 147px 0 64px;
     }
 
-    // .teeth__inner.bottom::before {
-    //     height: 8.2vw;
-    //     left: 0.5vw;
-    //     bottom: 21px;
-    //     width: 2.7vw;
-    // }
+    .privice__inner {
+        padding: 26px 37px 38px;
+    }
 
-    // .teeth__inner.bottom::after {
-    //     height: 9.2vw;
-    //     bottom: 17px;
-    //     width: 2.5vw;
-    // }
+    .privice__inner-text {
+        margin-top: 22px;
+    }
 
-    // .teeth__inner.top::after {
-    //     right: -0.2vw;
-    //     height: 6.6vw;
-    //     width: 1.9vw;
-    // }
+    .privice .fancybox-button {
+        height: 39px;
+        top: -26px;
+        right: -46px;
+    }
 }
 
 @media(max-width: 950px) {
@@ -881,6 +897,28 @@
             width: 33px;
         }
     }
+
+    .privice {
+        max-width: 532px;
+        padding: 32px 30px;
+    }
+
+    .privice__title {
+        font-size: 19px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+
+    .privice__inner-title {
+        font-size: 17px;
+        line-height: 29px;
+    }
+
+    .privice__inner-text {
+        margin-top: 9px;
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
 
 @media(max-width: 768px) {
@@ -996,7 +1034,7 @@
     }
 
     .order__form-btn {
-        margin: 28px 0 20px;
+        margin: 28px auto 20px;
     }
 
     .center {
@@ -1327,9 +1365,11 @@
     }
 
     .order__form-btn {
-        margin: 0px 0 20px;
+        margin: 0px auto 20px;
         display: flex;
         align-items: center;
+        justify-content: center;
+        width: 121px;
     }
 
     .order__form-bottom {
@@ -1667,88 +1707,39 @@
             right: -11px;
         }
     }
-}
 
-@media(max-width: 550px) {
-    // .order__form-teeth::before {
-    //     bottom: -36px;
-    // }
+    .privice {
+        max-width: 372px;
+        padding: 17px 19px;
+    }
 
-    // .order__form-teeth::after {
-    //     right: -192px;
-    //     bottom: -16px;
-    //     height: 22px;
-    // }
+    .privice__title {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
 
-    // .teeth__inner.bottom::before {
-    //     bottom: 5px;
-    // }
+    .privice__inner {
+        padding: 20px 20px 32px;
+    }
 
-    // .teeth__inner.top::after {
-    //     top: 1px;
-    //     right: 0px;
-    // }
+    .privice__inner-title {
+        font-size: 14px;
+        line-height: 22px;
+    }
 
-    // .teeth__inner.top::before {
-    //     left: 3px;
-    //     top: 2px;
-    //     height: 5.9vw;
-    // }
+    .privice__inner-text {
+        margin-top: 7px;
+        font-size: 14px;
+        line-height: 22px;
+    }
 
-    // .teeth__inner.bottom::after {
-    //     bottom: 1px;
-    // }
-
-    // .teeth__box-checkbox+label {
-    //     font-size: 1.5vw;
-    //     line-height: 1.9vw;
-    // }
-
-    // .teeth-16 {
-    //     padding: 1vw 2.3vw;
-    // }
-
-    // .teeth-15 {
-    //     padding: 1vw 1.8vw;
-    // }
-
-    // .teeth-21 {
-    //     padding: 1vw 1.7vw;
-    // }
-
-    // .teeth-23 {
-    //     padding: 1vw 1.2vw;
-    // }
-
-    // .teeth-26 {
-    //     padding: 1vw 2.2vw;
-    // }
-
-    // .teeth-13 {
-    //     padding: 1vw 1.8vw;
-    // }
-
-    // .teeth-12 {
-    //     padding: 1vw 1.2vw;
-    // }
-
-    // .teeth__inner.bottom {
-    //     .teeth-41 {
-    //         padding-left: 0.8vw;
-    //         padding-right: 0.8vw;
-    //     }
-
-    //     .teeth-33 {
-    //         padding-left: 1.3vw;
-    //         padding-right: 1.2vw;
-    //     }
-
-    //     .teeth-37 {
-    //         padding-left: 2.7vw;
-    //         padding-right: 2.7vw;
-
-    //     }
-    // }
+    .privice .fancybox-button {
+        height: 34px;
+        top: -24px;
+        right: -25px;
+        width: 38px;
+    }
 }
 
 @media(max-width: 425px) {
@@ -1764,6 +1755,14 @@
     .order__form-teeth::before {
         width: 146px;
         left: 293px;
+    }
+
+    .privice {
+        max-width: 272px;
+    }
+
+    .privice__title {
+        text-align: center;
     }
 }
 

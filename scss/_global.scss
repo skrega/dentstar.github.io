@@ -40,6 +40,10 @@ li {
     margin: 0;
 }
 
+.compensate-for-scrollbar {
+    margin-right: 0 !important;
+}
+
 .background {
     opacity: 0;
     z-index: -1;

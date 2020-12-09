@@ -10,7 +10,7 @@
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="libs/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -89,9 +89,7 @@
                     </svg>
                 </a>
             </div>
-            <img src="images/main-img.png" alt="" class="main__img wow pulse animated" data-wow-iteration="infinite"
-                data-wow-delay="3.3s" data-wow-delay="500ms"
-                style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
+            <img src="images/main-img.png" alt="" class="main__img">
         </div>
     </section>
     <div class="communication__btn">
@@ -162,28 +160,36 @@
                     </div>
                 </div>
                 <div class="partners__items">
-                    <a href="#" class="partners__item">
+                    <a href="#" class="partners__item wow animate__animated animate__fadeInUp" data-wow-delay="1s"
+                        data-wow-duration="2s">
                         <img src="images/doctorkan.png" alt="">
                     </a>
-                    <a href="#" class="partners__item">
+                    <a href="#" class="partners__item wow animate__animated animate__fadeInUp" data-wow-delay="1.3s"
+                        data-wow-duration="2s">
                         <img src="images/nikident.png" alt="">
                     </a>
-                    <a href="#" class="partners__item">
+                    <a href="#" class="partners__item wow animate__animated animate__fadeInUp" data-wow-delay="1.6s"
+                        data-wow-duration="2s">
                         <img src="images/alfadent.png" alt="">
                     </a>
-                    <a href="#" class="partners__item">
+                    <a href="#" class="partners__item wow animate__animated animate__fadeInUp" data-wow-delay="1.9s"
+                        data-wow-duration="2s">
                         <img src="images/kolorit.png" alt="">
                     </a>
-                    <a href="#" class="partners__item">
+                    <a href="#" class="partners__item wow animate__animated animate__fadeInUp" data-wow-delay="2.2s"
+                        data-wow-duration="2s">
                         <img src="images/ulybka.png" alt="">
                     </a>
-                    <a href="#" class="partners__item">
+                    <a href="#" class="partners__item wow animate__animated animate__fadeInUp" data-wow-delay="2.5s"
+                        data-wow-duration="2s">
                         <img src="images/diamond.png" alt="">
                     </a>
-                    <a href="#" class="partners__item">
+                    <a href="#" class="partners__item wow animate__animated animate__fadeInUp" data-wow-delay="2.9s"
+                        data-wow-duration="2s">
                         <img src="images/alexdent.jpg" alt="">
                     </a>
-                    <a href="#" class="partners__item link">
+                    <a href="#" class="partners__item link wow animate__animated animate__fadeInUp"
+                        data-wow-delay="3.3s" data-wow-duration="2s">
                         80+ компаний
                     </a>
                 </div>
@@ -255,7 +261,7 @@
         <div class="container">
             <div class="services__wrapper">
                 <a href="order-naryad.html" class="services__link btn wow animate__animated animate__backInUp"
-                    data-wow-delay="2.2s" data-wow-duration="2s">
+                    data-wow-delay="1.3s" data-wow-duration="2s">
                     ЗАПОЛНИТЬ ЗАКАЗ-НАРЯД
                     <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -315,22 +321,20 @@
     <section class="location center wow animate__animated animate__fadeIn" data-wow-duration="2s" id="location"
         style="background-image: url(images/location-map.png);">
         <div class="location__content">
-            <div class="location__suptitle suptitle wow animate__animated animate__fadeInLeft" data-wow-duration="2s">
+            <div class="location__suptitle suptitle">
                 География работы
             </div>
-            <div class="location__title title wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s"
-                data-wow-duration="2s">
+            <div class="location__title title">
                 Работаем по всему Приморскому краю
             </div>
-            <div class="location__text text wow animate__animated animate__fadeInLeft" data-wow-delay="0.9s"
-                data-wow-duration="2s">
+            <div class="location__text text">
                 Не важно, где вы находитесь, мы изготовим заказ и оперативно его доставим. У нас действует
                 бесплатная доставка в Уссурийск, Артём, Находку, Владивосток и Спасск-Дальний. Курьер приедет к вам
                 в удобное время, заберет слепок и привезет результат, как только все будет готово. Также мы
                 встречаем и отправляем работы маршрутными автобусами: каждый день, без выходных, в любое время дня и
                 ночи
             </div>
-            <a href="#" class="location__btn btn wow animate__animated animate__fadeInLeft" data-wow-delay="1.2s"
+            <a href="#" class="location__btn btn wow animate__animated animate__pulse" data-wow-delay="1.2s"
                 data-wow-duration="2s">
                 НАПИСАТЬ НАМ
                 <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -342,37 +346,37 @@
         </div>
         <div class="location__map-box">
 
-            <div class="location__dots location__dots-1 wow animate__animated animate__bounceIn" data-wow-delay="1.4s"
+            <div class="location__dots location__dots-1 wow animate__animated animate__zoomIn" data-wow-delay="3s"
                 data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Находка</span>
             </div>
-            <div class="location__dots location__dots-2 wow animate__animated animate__bounceIn" data-wow-delay="1.6s"
+            <div class="location__dots location__dots-2 wow animate__animated animate__zoomIn" data-wow-delay="2.6s"
                 data-wow-duration="2s">
                 <span>Владивосток</span>
                 <div class="location__circle"></div>
             </div>
-            <div class="location__dots location__dots-3 wow animate__animated animate__bounceIn" data-wow-delay="1.8s"
+            <div class="location__dots location__dots-3 wow animate__animated animate__zoomIn" data-wow-delay="2.3s"
                 data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Артем</span>
             </div>
-            <div class="location__dots location__dots-4 wow animate__animated animate__bounceIn" data-wow-delay="2s"
+            <div class="location__dots location__dots-4 wow animate__animated animate__zoomIn" data-wow-delay="1.9s"
                 data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Уссурийск</span>
             </div>
-            <div class="location__dots location__dots-5 wow animate__animated animate__bounceIn" data-wow-delay="2.3s"
+            <div class="location__dots location__dots-5 wow animate__animated animate__zoomIn" data-wow-delay="1.5s"
                 data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Спасск-Дальний</span>
             </div>
-            <div class="location__dots location__dots-6 wow animate__animated animate__bounceIn" data-wow-delay="2.6s"
+            <div class="location__dots location__dots-6 wow animate__animated animate__zoomIn" data-wow-delay="1.2s"
                 data-wow-duration="2s">
                 <span>Дальнегорск</span>
                 <div class="location__circle"></div>
             </div>
-            <div class="location__dots location__dots-7 wow animate__animated animate__bounceIn" data-wow-delay="2.9s"
+            <div class="location__dots location__dots-7 wow animate__animated animate__zoomIn" data-wow-delay="1s"
                 data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Лесозаводск</span>
