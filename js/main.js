@@ -90,6 +90,7 @@ $(function (){
       }
      
     })
+    new WOW().init();
 })
 
 function initMap() {

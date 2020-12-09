@@ -10,41 +10,47 @@
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
     <header class="header center">
         <div class="header__inner">
-            <a href="#" class="header__logo logo">
+            <a href="#" class="header__logo logo wow animate__animated animate__zoomIn" data-wow-duration="2s">
                 <picture>
                     <source srcset="images/logo_mobile.svg" media="(max-width: 786px">
                     <img src="images/logo.svg" alt="">
                 </picture>
-
             </a>
             <div class="header__content">
                 <ul class="header__menu">
                     <li>
-                        <a class="header__menu-link active" href="#main">Главная</a>
+                        <a class="header__menu-link active wow animate__animated animate__fadeInDown"
+                            data-wow-duration="2s" data-wow-delay="0.6s" href="#main">Главная</a>
                     </li>
                     <li>
-                        <a class="header__menu-link" href="#services">Услуги</a>
+                        <a class="header__menu-link wow animate__animated animate__fadeInDown" data-wow-delay="0.9s"
+                            data-wow-duration="2s" href="#services">Услуги</a>
                     </li>
                     <li>
-                        <a class="header__menu-link" href="#about">О компании</a>
+                        <a class="header__menu-link wow animate__animated animate__fadeInDown" data-wow-delay="1.2s"
+                            data-wow-duration="2s" href="#about">О
+                            компании</a>
                     </li>
                     <li>
-                        <a class="header__menu-link" href="#location">География работы</a>
+                        <a class="header__menu-link wow animate__animated animate__fadeInDown" data-wow-delay="1.5s"
+                            data-wow-duration="2s" href="#location">География работы</a>
                     </li>
                     <li>
-                        <a class="header__menu-link" href="#contacts">Контакты</a>
+                        <a class="header__menu-link wow animate__animated animate__fadeInDown" data-wow-delay="1.8s"
+                            data-wow-duration="2s" href="#contacts">Контакты</a>
                     </li>
                 </ul>
-                <a href="order-naryad.html" class="header__link">
+                <a href="order-naryad.html" class="header__link  wow animate__animated animate__fadeInDown"
+                    data-wow-delay="2s" data-wow-duration="2s">
                     ЗАКАЗ-НАРЯД
                 </a>
-
             </div>
             <div class="header__menu-btn">
                 <span></span>
@@ -58,18 +64,23 @@
     <section class="main center" id="main" style="background-image: url(images/main__bg-right.svg);">
         <div class="main__inner">
             <div class="main__content">
-                <div class="main__suptitle suptitle">
+                <div class="main__suptitle suptitle wow animate__animated animate__fadeInLeft" data-wow-delay="2s"
+                    data-wow-duration="2s">
                     Ваш надежный партнер
                 </div>
-                <h1 class="main__title">
+                <h1 class="main__title wow animate__animated animate__fadeInLeft" data-wow-delay="2.5s"
+                    data-wow-duration="2s">
                     Зуботехническая
                     лаборатория
                 </h1>
-                <p class="main__text text">
+                <p class="main__text text wow animate__animated animate__fadeInLeft" data-wow-delay="2.8s"
+                    data-wow-duration="2s">
                     Dent Star - это новейшие технологии и материалы, которые соответствуют всем медицинским
                     стандартам.
                 </p>
-                <a data-fancybox data-src="#feedback" href="javascript:;" class="main__link btn">
+                <a data-fancybox data-src="#feedback" href="javascript:;"
+                    class="main__link btn wow animate__animated animate__fadeInLeft" data-wow-delay="3s"
+                    data-wow-duration="2s">
                     СТАТЬ ПАРТНЕРОМ
                     <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -78,7 +89,9 @@
                     </svg>
                 </a>
             </div>
-            <img src="images/main-img.png" alt="" class="main__img">
+            <img src="images/main-img.png" alt="" class="main__img wow pulse animated" data-wow-iteration="infinite"
+                data-wow-delay="3.3s" data-wow-delay="500ms"
+                style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
         </div>
     </section>
     <div class="communication__btn">
@@ -133,14 +146,17 @@
         <div class="container">
             <div class="partners__inner">
                 <div class="partners__content">
-                    <div class="partners__suptitle suptitle">
+                    <div class="partners__suptitle suptitle wow animate__animated animate__fadeInLeft"
+                        data-wow-duration="2s">
                         Нам доверяют
                     </div>
-                    <div class="partners__title title">
+                    <div class="partners__title title wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s"
+                        data-wow-duration="2s">
                         С 2009 года сотрудничаем
                         с профессионалами своего дела
                     </div>
-                    <div class="partners__text text">
+                    <div class="partners__text text wow animate__animated animate__fadeInLeft" data-wow-delay="1s"
+                        data-wow-duration="2s">
                         Мы знаем, как в нашем деле важна точность, качество исполнения и внимание к деталям. Поэтому
                         лабораторию Dent Star из года в год выбирают лучшие техники и стоматологии
                     </div>
@@ -176,16 +192,18 @@
     </section>
     <section id="services" class="services">
         <div class="container">
-            <div class="services__suptitle suptitle">
+            <div class="services__suptitle suptitle wow animate__animated animate__fadeInLeft" data-wow-duration="2s">
                 Наши услуги
             </div>
-            <div class="services__title title">
+            <div class="services__title title wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s"
+                data-wow-duration="2s">
                 Мы поможем вам
             </div>
         </div>
         <div class="container servisec-conatiner">
             <div class="services__items">
-                <div class="services__item">
+                <div class="services__item wow animate__animated animate__fadeInUp" data-wow-delay="1s"
+                    data-wow-duration="2s">
                     <div class="services__item-icon">
                         <img src="images/icons/check.svg" alt="">
                     </div>
@@ -196,7 +214,8 @@
                         Создание протезов в технологии литья из самых качественных материалов
                     </div>
                 </div>
-                <div class="services__item">
+                <div class="services__item wow animate__animated animate__fadeInUp" data-wow-delay="1.4s"
+                    data-wow-duration="2s">
                     <div class="services__item-icon">
                         <img src="images/icons/check.svg" alt="">
                     </div>
@@ -207,7 +226,8 @@
                         Проводим компьютерное моделирование для создания максимально точных конструкций
                     </div>
                 </div>
-                <div class="services__item">
+                <div class="services__item wow animate__animated animate__fadeInUp" data-wow-delay="1.7s"
+                    data-wow-duration="2s">
                     <div class="services__item-icon">
                         <img src="images/icons/check.svg" alt="">
                     </div>
@@ -218,7 +238,8 @@
                         Создаем изделия на высокоточных станках с числовым программным управлением
                     </div>
                 </div>
-                <div class="services__item">
+                <div class="services__item wow animate__animated animate__fadeInUp" data-wow-delay="1.9s"
+                    data-wow-duration="2s">
                     <div class="services__item-icon">
                         <img src="images/icons/check.svg" alt="">
                     </div>
@@ -233,7 +254,8 @@
         </div>
         <div class="container">
             <div class="services__wrapper">
-                <a href="order-naryad.html" class="services__link btn">
+                <a href="order-naryad.html" class="services__link btn wow animate__animated animate__backInUp"
+                    data-wow-delay="2.2s" data-wow-duration="2s">
                     ЗАПОЛНИТЬ ЗАКАЗ-НАРЯД
                     <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -250,10 +272,11 @@
         <div class="container">
             <div class="about__inner">
                 <div class="about__content">
-                    <div class="about__title title">
+                    <div class="about__title title wow animate__animated animate__fadeInLeft" data-wow-duration="2s">
                         Внимание к деталям
                     </div>
-                    <div class="about__text text">
+                    <div class="about__text text wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s"
+                        data-wow-duration="2s">
                         <p>
                             Зуботехническая лаборатория полного цикла Dent Star основана в 2009 году – и количество
                             наших партнеров растет с каждым годом. Мы выбираем самые качественные материалы, оперативно
@@ -264,19 +287,22 @@
                         </p>
                     </div>
                 </div>
-                <div class="about__img about__img-top">
+                <div class="about__img about__img-top wow animate__animated animate__fadeInRight" data-wow-delay="1s"
+                    data-wow-duration="2s">
                     <img src="images/about-1.jpg" alt="">
                 </div>
             </div>
             <div class="about__inner">
-                <div class="about__img about__img-bottom">
+                <div class="about__img about__img-bottom wow animate__animated animate__fadeInLeft" data-wow-delay="1s"
+                    data-wow-duration="2s">
                     <img src="images/about-2.jpg" alt="">
                 </div>
                 <div class="about__content">
-                    <div class="about__title title">
+                    <div class="about__title title wow animate__animated animate__fadeInRight" data-wow-duration="2s">
                         Оптимальные сроки
                     </div>
-                    <div class="about__text text">
+                    <div class="about__text text wow animate__animated animate__fadeInRight" data-wow-delay="0.7s"
+                        data-wow-duration="2s">
                         Каждый этап создания протезов в нашей зуботехнической лаборатории отработан годами и выверен до
                         мелочей, а новые технологии позволяют ускорить процессы, которые раньше занимали гораздо больше
                         времени. Благодаря современному подходу Dent Star и профессионализму наших сотрудников, вы
@@ -286,22 +312,26 @@
             </div>
         </div>
     </section>
-    <section class="location center" id="location" style="background-image: url(images/location-map.png);">
+    <section class="location center wow animate__animated animate__fadeIn" data-wow-duration="2s" id="location"
+        style="background-image: url(images/location-map.png);">
         <div class="location__content">
-            <div class="location__suptitle suptitle">
+            <div class="location__suptitle suptitle wow animate__animated animate__fadeInLeft" data-wow-duration="2s">
                 География работы
             </div>
-            <div class="location__title title">
+            <div class="location__title title wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s"
+                data-wow-duration="2s">
                 Работаем по всему Приморскому краю
             </div>
-            <div class="location__text text">
+            <div class="location__text text wow animate__animated animate__fadeInLeft" data-wow-delay="0.9s"
+                data-wow-duration="2s">
                 Не важно, где вы находитесь, мы изготовим заказ и оперативно его доставим. У нас действует
                 бесплатная доставка в Уссурийск, Артём, Находку, Владивосток и Спасск-Дальний. Курьер приедет к вам
                 в удобное время, заберет слепок и привезет результат, как только все будет готово. Также мы
                 встречаем и отправляем работы маршрутными автобусами: каждый день, без выходных, в любое время дня и
                 ночи
             </div>
-            <a href="#" class="location__btn btn">
+            <a href="#" class="location__btn btn wow animate__animated animate__fadeInLeft" data-wow-delay="1.2s"
+                data-wow-duration="2s">
                 НАПИСАТЬ НАМ
                 <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -312,31 +342,38 @@
         </div>
         <div class="location__map-box">
 
-            <div class="location__dots location__dots-1">
+            <div class="location__dots location__dots-1 wow animate__animated animate__bounceIn" data-wow-delay="1.4s"
+                data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Находка</span>
             </div>
-            <div class="location__dots location__dots-2">
+            <div class="location__dots location__dots-2 wow animate__animated animate__bounceIn" data-wow-delay="1.6s"
+                data-wow-duration="2s">
                 <span>Владивосток</span>
                 <div class="location__circle"></div>
             </div>
-            <div class="location__dots location__dots-3">
+            <div class="location__dots location__dots-3 wow animate__animated animate__bounceIn" data-wow-delay="1.8s"
+                data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Артем</span>
             </div>
-            <div class="location__dots location__dots-4">
+            <div class="location__dots location__dots-4 wow animate__animated animate__bounceIn" data-wow-delay="2s"
+                data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Уссурийск</span>
             </div>
-            <div class="location__dots location__dots-5">
+            <div class="location__dots location__dots-5 wow animate__animated animate__bounceIn" data-wow-delay="2.3s"
+                data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Спасск-Дальний</span>
             </div>
-            <div class="location__dots location__dots-6">
+            <div class="location__dots location__dots-6 wow animate__animated animate__bounceIn" data-wow-delay="2.6s"
+                data-wow-duration="2s">
                 <span>Дальнегорск</span>
                 <div class="location__circle"></div>
             </div>
-            <div class="location__dots location__dots-7">
+            <div class="location__dots location__dots-7 wow animate__animated animate__bounceIn" data-wow-delay="2.9s"
+                data-wow-duration="2s">
                 <div class="location__circle"></div>
                 <span>Лесозаводск</span>
             </div>
@@ -344,8 +381,8 @@
     </section>
     <section class="advanages">
         <div class="container">
-            <div class="advanages__inner">
-                <div class="advanages__item">
+            <div class="advanages__inner wow animate__animated animate__fadeIn">
+                <div class="advanages__item wow animate__animated animate__fadeIn" data-wow-duration="2s">
                     <div class="advanages__item-icon">
                         <img src="images/icons/advanages__item-1.svg" alt="">
                     </div>
@@ -354,7 +391,8 @@
                         качество изделий
                     </div>
                 </div>
-                <div class="advanages__item">
+                <div class="advanages__item wow animate__animated animate__fadeIn" data-wow-delay="0.6s"
+                    data-wow-duration="2s">
                     <div class="advanages__item-icon">
                         <img src="images/icons/advanages__item-2.svg" alt="">
                     </div>
@@ -362,7 +400,8 @@
                         Квалифицированная консультация
                     </div>
                 </div>
-                <div class="advanages__item">
+                <div class="advanages__item wow animate__animated animate__fadeIn" data-wow-delay="1s"
+                    data-wow-duration="2s">
                     <div class="advanages__item-icon">
                         <img src="images/icons/advanages__item-3.svg" alt="">
                     </div>
@@ -370,7 +409,8 @@
                         Изготовление точно в срок
                     </div>
                 </div>
-                <div class="advanages__item">
+                <div class="advanages__item wow animate__animated animate__fadeIn" data-wow-delay="1.4s"
+                    data-wow-duration="2s">
                     <div class="advanages__item-icon">
                         <img src="images/icons/advanages__item-4.svg" alt="">
                     </div>
@@ -408,32 +448,42 @@
     <section id="contacts" class="contacts">
         <div id="map" style="background-image: url(images/contacts-map.jpg);"></div>
         <div class="container">
-            <div class="contacts__inner">
-                <div class="contacts__title title">
+            <div class="contacts__inner wow animate__animated animate__fadeInLeft" data-wow-duration="2s">
+                <div class="contacts__title title wow animate__animated animate__fadeInDown" data-wow-delay="0.6s"
+                    data-wow-duration="2s">
                     Контакты
                 </div>
-                <div class="contacts__info-title contacts__info-addres">
+                <div class="contacts__info-title contacts__info-addres wow animate__animated animate__fadeInDown"
+                    data-wow-delay="1s" data-wow-duration="2s">
                     Адрес
                 </div>
-                <a href="#" class="contacts__info-text link">
+                <a href="#" class="contacts__info-text link wow animate__animated animate__fadeInDown"
+                    data-wow-delay="1.4s" data-wow-duration="2s">
                     г. Уссурийск, ул. Комсомольская, 28
                 </a>
-                <div class="contacts__info-title contacts__info-work">
+                <div class="contacts__info-title contacts__info-work wow animate__animated animate__fadeInDown"
+                    data-wow-delay="1.8s" data-wow-duration="2s">
                     Режим работы
                 </div>
-                <div class="contacts__info-text">
+                <div class="contacts__info-text wow animate__animated animate__fadeIn" data-wow-delay="2.2s"
+                    data-wow-duration="2s">
                     Пн-Пт 09:00 - 18:00
                 </div>
-                <div class="contacts__info-title contacts__info-phone">
+                <div class="contacts__info-title contacts__info-phone wow animate__animated animate__fadeInDown"
+                    data-wow-delay="2.5s" data-wow-duration="2s">
                     Телефон
                 </div>
-                <a href="tel:+79089651396" class="contacts__info-text link">
+                <a href="tel:+79089651396" class="contacts__info-text link wow animate__animated animate__fadeInDown"
+                    data-wow-delay="2.8s" data-wow-duration="2s">
                     +7 (908) 965-13-96
                 </a>
-                <div class="contacts__info-title contacts__info-mail">
+                <div class="contacts__info-title contacts__info-mail wow animate__animated animate__fadeInDown"
+                    data-wow-delay="3.1s" data-wow-duration="2s">
                     Email
                 </div>
-                <a href="mailto:info@dentstar.pro" class="contacts__info-text link">
+                <a href="mailto:info@dentstar.pro"
+                    class="contacts__info-text link wow animate__animated animate__fadeInDown" data-wow-delay="3.4s"
+                    data-wow-duration="2s">
                     info@dentstar.pro
                 </a>
             </div>
@@ -548,6 +598,7 @@
     </script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="libs/wow.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
