@@ -82,44 +82,47 @@
         </div>
     </section>
     <div class="communication__btn">
-        <button class="hide__btn">
-            <img src="images/icons/eye.svg" alt="">
-        </button>
-        <button class="close__btn">
-            <img src="images/icons/close-btn.svg" alt="">
-        </button>
-        <ul class="communication__list">
-            <li>
-                <img src="images/icons/whatsapp.svg" alt="">
-                <a class="communication__list-link" href="#">
-                    Написать в WhatsApp
-                </a>
-            </li>
-            <li>
-                <img src="images/icons/telegram.svg" alt="">
-                <a class="communication__list-link" href="#">
-                    Написать в Telegram
-                </a>
-            </li>
-            <li>
-                <img src="images/icons/instagram-link.svg" alt="">
-                <a class="communication__list-link" href="#">
-                    Перейти в Instagram
-                </a>
-            </li>
-            <li>
-                <img src="images/icons/mail-link.svg" alt="">
-                <a class="communication__list-link" href="#">
-                    Оставить заявку
-                </a>
-            </li>
-            <li>
-                <img src="images/icons/phone-link.svg" alt="">
-                <a class="communication__list-link" href="#">
-                    Позвонить нам
-                </a>
-            </li>
-        </ul>
+        <div class="communication__btn-content">
+            <button class="hide__btn">
+                <img src="images/icons/eye.svg" alt="">
+            </button>
+            <button class="close__btn">
+                <img src="images/icons/close-btn.svg" alt="">
+            </button>
+            <ul class="communication__list">
+                <li>
+                    <a class="communication__list-link" href="#">
+                        <img class="communication__list-icon" src="images/icons/whatsapp.svg" alt="">
+                        Написать в WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a class="communication__list-link" href="#">
+                        <img class="communication__list-icon" src="images/icons/telegram.svg" alt="">
+                        Написать в Telegram
+                    </a>
+                </li>
+                <li>
+                    <a class="communication__list-link" href="#">
+                        <img class="communication__list-icon" src="images/icons/instagram-link.svg" alt="">
+                        Перейти в Instagram
+                    </a>
+                </li>
+                <li>
+                    <a class="communication__list-link" href="#">
+                        <img class="communication__list-icon" src="images/icons/mail-link.svg" alt="">
+                        Оставить заявку
+                    </a>
+                </li>
+                <li>
+                    <a class="communication__list-link" href="#">
+                        <img class="communication__list-icon" src="images/icons/phone-link.svg" alt="">
+                        Позвонить нам
+                    </a>
+                </li>
+            </ul>
+        </div>
+
         <div class="communication__btn-inner">
             <button>
                 <img src="images/communication-icon.svg" alt="">
@@ -230,7 +233,7 @@
         </div>
         <div class="container">
             <div class="services__wrapper">
-                <a href="#" class="services__link btn">
+                <a href="order-naryad.html" class="services__link btn">
                     ЗАПОЛНИТЬ ЗАКАЗ-НАРЯД
                     <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -469,6 +472,7 @@
             </div>
         </div>
     </footer>
+
     <div id="feedback" class="feedback" style="display: none;">
         <div class=" feedback__inner">
             <div class="feedback__title">
@@ -482,12 +486,29 @@
                 <input type="text" class="feedback__form-input" placeholder="Номер телефона * ">
                 <textarea name="" class="feedback__form-input feedback__form-textarea"
                     placeholder="Сообщение"></textarea>
-                <a href="#" class="feedback__form-btn btn">ОТПРАВИТЬ</a>
+                <a data-fancybox data-src="#success-message " href="javascript:;"
+                    class="feedback__form-btn btn">ОТПРАВИТЬ</a>
                 <a data-fancybox data-src="#privice" href="javascript:;" class="feedback__privice">
                     Нажимая на кнопку, Вы соглашаетесь
                     с политикой конфиденциальности
                 </a>
             </form>
+        </div>
+    </div>
+    <div class="success" id="success-message" style="display: none;">
+        <div class="success__title">
+            Сообщение отправлено
+        </div>
+        <div class="success__text text">
+            Спасибо! Мы получили Ваше сообщение. Мы свяжемся с Вами в ближайшее время.
+        </div>
+    </div>
+    <div class="success" id="success-form" style="display: none;">
+        <div class="success__title">
+            Заявка отправлена
+        </div>
+        <div class="success__text text">
+            Спасибо! Мы получили Вашу заявку. Мы свяжемся с Вами в ближайшее время.
         </div>
     </div>
     <div id="privice" class="privice" style="display: none;">
@@ -514,7 +535,9 @@
         </div>
     </div>
 
+    <div class="background">
 
+    </div>
 
 
 

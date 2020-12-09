@@ -1,11 +1,27 @@
 $(function (){
 
-  $('.header__menu-btn').click(function(){
+  $('.header__menu-btn').on('click', function(){
     $(this).toggleClass('open');
     $('.header__content').toggleClass('open');
-    
   });
 
+  $('.communication__btn-inner').on('click', function(){
+    $(this).toggleClass('open');
+    $('.communication__btn').toggleClass('open');
+    $('.background').toggleClass('open');
+  });
+
+  $('.close__btn').on('click', function(){
+    $('.communication__btn-inner').removeClass('open');
+    $('.communication__btn').removeClass('open'); 
+    $('.background').removeClass('open');
+  });
+
+  $('.hide__btn').on('click', function(){
+    $('.communication__btn-inner').addClass('hidden');
+    $('.communication__btn').addClass('hidden');
+    $('.background').removeClass('open');
+  });
 
   $('.services__items').slick({
     arrows: false,
